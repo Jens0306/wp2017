@@ -12,6 +12,17 @@
     border-style:solid;
     border-color:black;
   }
+  #sitebody{
+  　width:600px;
+  　margin:0 auto;
+  　font-size:13px;
+  }
+  #header{
+  　background-color:#FFD4D4;
+  　height:80px;
+  　text-align:center;
+  　line-height:80px;
+  }
   #sidebar_left{
   　background-color:#FFECC9;
   　width:120px;
@@ -35,6 +46,13 @@
   　background-color:#F2FFF2;
   　text-align:center;
   　line-height:400px;
+  }
+  #footer{
+  　clear:both;
+  　background-color:#FFD4D4;
+  　height:80px;
+  　text-align:center;
+  　line-height:80px;
   }
   p{
     color:white;
