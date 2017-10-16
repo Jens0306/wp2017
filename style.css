@@ -6,6 +6,9 @@
     font-size:70px;
     color:white;                  
   }
+#menu {
+  background-color:black;
+}
 #about_me {
   background-color:black;
   color:gray;
