@@ -4,7 +4,7 @@ $("document").ready(function(){
     //$("#contact").toggle("slide"); 
     //$("#skill").toggle("slide"); 
     $("#about_me").hide("slide", { direction: "left" }, 1000);
-    $("#about_me").show("slide", { direction: "left" }, 1000);
+    //$("#about_me").show("slide", { direction: "left" }, 1000);
   });
 });
 function myFunction() {
