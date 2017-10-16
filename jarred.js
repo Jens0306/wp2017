@@ -1,6 +1,6 @@
 $("document").ready(function(){
   $("#menu").click(function(){
-    $("#about_me" "#contact" "#skill").toggle("slide");
+    $("#about_me #contact #skill").toggle("slide");
   });
 });
 function myFunction() {
