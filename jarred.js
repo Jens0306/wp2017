@@ -3,3 +3,6 @@ $("document").ready(function(){
     $("#about_me").slideToggle("slow");
   });
 });
+function myFunction() {
+    alert("Hello\nHow are you?");
+}
