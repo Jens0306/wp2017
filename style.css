@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
 }
@@ -11,6 +12,49 @@ h1{
   font-family: fantasy;
   color: inherit;
 }
+=======
+
+  body{
+    background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
+  }
+  h1{
+    font-size:70px;
+    color:white;                  
+  }
+  #layer1{
+    height:100%;
+
+      background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/me.jpg');
+        background-position:-1920px;
+          background-repeat: no-repeat;
+          }
+
+          #layer2{
+            height:100%;
+              background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
+                background-position:-1920px;
+                  background-repeat: no-repeat;
+
+                  }
+                  #layer3{
+                    height:100%;
+
+                      background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/menu.jpeg');
+                        background-position: -1600px;
+                          background-repeat: no-repeat;
+                          }
+                          p {
+                            position: 500px;
+                              margin-right: 50%
+                                color: white;
+                                  opacity: 0;
+                                  }
+                                  a{
+                                    position:1500px;
+                                      opacity: 0;
+                                      }
+  /*
+>>>>>>> d97ac03345eb6d1c9a8a991f1b5d712288268918
 #menu {
   background-color:white;
 }
@@ -34,3 +78,4 @@ h1{
   a{
     color:white;
   }
+  */
