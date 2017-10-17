@@ -11,7 +11,7 @@ $("document").ready(function(){
     if (flag == 0) {
       setTimeout(function(){
         $("#layer1_0").animate({"background-position":"500px"}, 1200);
-        $("#layer2_0").animate({"background-position":"-1150px"}, 1000);
+        $("#layer2_0").animate({"background-position":"-550px"}, 1000);
         setTimeout(function(){
           $("#layer1").animate({"background-position":"-1920px"}, 1000);
           $("#layer2").animate({"background-position":"-1920px"}, 1000);
