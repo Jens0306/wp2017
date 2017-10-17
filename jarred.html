@@ -1,19 +1,24 @@
 <!DOCTYPE>
 <html>
   <head>
-    <link rel=stylesheet href="style.css">
+  <!--  <link rel=stylesheet href="style.css"> -->
     <title>Jared</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jarred.js"></script>
   </head>
   <body>
+
+    <!--
     <h1>Yang-Lin Wang | 王彥霖</h1>
       <table width="100%" height = "100%">
         <tr>
-          <td id = "menu" width = "10%"></td>
-          <td id = "about_me" width = "30%" >
+          <td id = "menu"  width = "10%">
+            <button id = "bton" onclick="myFunction()">menu</button>
+          </td>
+          <td id = "about_me" display="none" width = "30%" >
             <p>About me:</p>
             <p>NCKU-CSIE</p>
-            <button onclick="myFunction()">Try it</button>
+
           </td>
           <td id = "contact" width = "30%">
             <p>Contact:</p>
@@ -21,9 +26,64 @@
             <p>Email: ace020771@gmail.com</p>
             <p>Git Hub:jend0306</p>
           </td>
-          <td id = "skill" width = "30%">Skill:</td> 
+          <td id = "skill" width = "30%">Skill:</td>
         </tr>
       </table>
-    <script type="text/javascript" src="jarred.js"></script> 
+    <script type="text/javascript" src="jarred.js"></script>
+  -->
+
+    <div id="layer1" >
+
+      <div id="layer2">
+        <div id = "word">
+          <p>Contact:</p>
+          <a href="https://www.facebook.com/profile.php?id=100006454921943"> My Facebook </a>
+          <p>Email: ace020771@gmail.com</p>
+          <p>Git Hub:jend0306</p>
+        </div>
+
+        <div id = "layer3">
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+
+<style>
+#word{
+  position: absolute;
+  margin-left: 30%;
+}
+#layer1{
+  height:100%;
+
+  background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/me.jpg');
+  background-position:-1920px;
+  background-repeat: no-repeat;
+}
+
+#layer2{
+  height:100%;
+  background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
+  background-position:-1920px;
+  background-repeat: no-repeat;
+
+}
+#layer3{
+
+  height:100%;
+
+  background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/menu.jpeg');
+  background-position: -1600px;
+  background-repeat: no-repeat;
+}
+p {
+  color: white;
+  opacity: 0;
+}
+a{
+  position:1500px;
+  opacity: 0;
+}
+</style>

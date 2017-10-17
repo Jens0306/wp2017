@@ -1,20 +1,26 @@
-
-  body{
-    background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
-  }
-  h1{
-    font-size:70px;
-    color:white;                  
-  }
+body{
+  background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
+}
+h1{
+  font-size:70px;
+  color:white;
+}
+#bton {
+  shape-outside: circle();
+  shape-inside: circle();
+  font-family: fantasy;
+  color: inherit;
+}
 #menu {
-  background-color:black;
+  background-color:white;
 }
 #about_me {
-  background-color:black;
+  padding-left: -200px;
+  background-color:gray;
   color:gray;
 }
 #contact {
-  background-color:gray; 
+  background-color:black;
   color:white;
 }
 #skill {
