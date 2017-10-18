@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
   background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
 }
@@ -6,76 +5,57 @@ h1{
   font-size:70px;
   color:white;
 }
-#bton {
-  shape-outside: circle();
-  shape-inside: circle();
-  font-family: fantasy;
-  color: inherit;
+#bg{
+  width:100%;
+  height:100%;
+  top: 0%;
+  z-index:-10;
+  background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
 }
-=======
-
-  body{
-    background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
-  }
-  h1{
-    font-size:70px;
-    color:white;                  
-  }
-  #layer1{
-    height:100%;
-
-      background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/me.jpg');
-        background-position:-1920px;
-          background-repeat: no-repeat;
-          }
-
-          #layer2{
-            height:100%;
-              background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/Bricks-Background.jpg");
-                background-position:-1920px;
-                  background-repeat: no-repeat;
-
-                  }
-                  #layer3{
-                    height:100%;
-
-                      background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/menu.jpeg');
-                        background-position: -1600px;
-                          background-repeat: no-repeat;
-                          }
-                          p {
-                            position: 500px;
-                              margin-right: 50%
-                                color: white;
-                                  opacity: 0;
-                                  }
-                                  a{
-                                    position:1500px;
-                                      opacity: 0;
-                                      }
-  /*
->>>>>>> d97ac03345eb6d1c9a8a991f1b5d712288268918
-#menu {
-  background-color:white;
+#menu{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  z-index:10;
+  background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/white.jpg');
+  background-repeat: no-repeat;
 }
-#about_me {
-  padding-left: -200px;
-  background-color:gray;
-  color:gray;
-}
-#contact {
-  background-color:black;
-  color:white;
-}
-#skill {
+#bottom_1{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0%;
+  right: 100%;
   background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/me.jpg');
-  width:"100%";
-  height:"100%";
+  background-repeat: no-repeat;
 }
-  p{
-    color:white;
-  }
-  a{
-    color:white;
-  }
-  */
+#middle_1{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/brown.jpg");
+  background-repeat: no-repeat;
+}
+
+#bottom_2{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  background-image: url('https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/me2.jpg');
+  background-repeat: no-repeat;
+}
+#middle_2{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  background-image:url("https://raw.githubusercontent.com/Jens0306/wp2017/gh-pages/gray.jpg");
+  background-repeat: no-repeat;
+}
