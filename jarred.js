@@ -1,7 +1,7 @@
 
 $("document").ready(function(){
   var flag = 1;
-  $("#menu").animate({"right":"75%"}, 1000);
+  $("#fixed").animate({"right":"75%"}, 1000);
   $("#middle_1").animate({"right":"50%"}, 1000);
   $("#bottom_1").animate({"right":"-30%"}, 1000);
   setInterval(function(){
