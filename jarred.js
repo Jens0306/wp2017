@@ -1,4 +1,5 @@
 $("document").ready(function(){
+  var hov = 0;
   var flag = 1;
   $("#fixed").animate({"right":"75%"}, 1000);
   $("#middle_1").animate({"right":"50%"}, 1000);
@@ -37,4 +38,10 @@ $("document").ready(function(){
       flag = 0;
     }
   },4000);
+  $("#bton").click(function(){
+    $("#menu").animate({"right":"50%"}, 700);
+  });
+  $("#back").click(function(){
+    $("#menu").animate({"right":"100%"}, 800);
+  });
 });
